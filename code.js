@@ -13,5 +13,5 @@ let x = "#";
 
 for (var y = 0; y < 7; y++) {
     console.log(x);
-    x += "#";
+    x = x + "#";
 }
