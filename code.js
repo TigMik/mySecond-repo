@@ -11,7 +11,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 
 let x = "#";
 
-for (let y = 0; y < 5; y++) {
+
+for (let y = 0; y < 3; y++) {
     console.log(x);
     x = x + "#";
 }
